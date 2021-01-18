@@ -1,0 +1,161 @@
+body{
+    font-family: initial;
+    margin: 0;
+    padding: 0;
+}
+menu{
+    background-color: #F8F9FA;
+    box-shadow:0px 0px 5px 0px #00000080;
+    padding: 0;
+    margin:0;
+}
+nav {
+    width: 80%;
+    margin: auto;
+}
+menu img {
+    width: 35%;
+}
+nav>a>h2{
+    color: #FABE4C;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+nav ul li a {    
+    margin: 0px 5px;
+    padding: 5px 20px !important;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+nav>div>ul{
+    margin: auto;
+}
+nav ul li a:hover{
+    background: #FABE4C;    
+    color: white !important;
+}
+
+
+
+.home-slider span{
+    color: #FABE4C;
+}
+.home-slider-images img {
+    width: 500px !important;
+    height: 500px !important;
+}
+header{
+    background-color: #FFFBF0;
+}
+.custion-btn{
+    background-color: #A4BC46;
+    padding: 10px 25px;
+    color: #fff;
+}
+.slider-contant h1{
+    font-size: 50px;
+    color: #363958;
+    text-transform: uppercase;
+}
+
+.widget{
+    border: 1px solid rgba(105, 105, 105, 0.555);
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.single-widget i {
+    font-size: 40px;
+    color: #FABE4C;
+    padding: 0px 10px;
+}
+.widget h6{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.widget-banner img {
+    width: 100%; 
+}
+.widget-banner img:hover{
+    transform: rotate(5deg);  
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.widget-banner:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+.product-card {
+    border: none;
+    box-shadow:0px 0px 5px 0px #00000080;
+}
+.product-card:hover{    
+    box-shadow: inset 0px 0px 20px 0px #FEB518;
+    transform: scale(1.1);
+    transition: transform 500ms ease-in ;
+}
+.product-card img {
+    width: 180px;
+    height: 220px;
+}
+.product-card p{
+    color: #00000091;
+}
+.card-images {
+    margin: 15px;
+    padding:20px;
+    background: #F1F1F1;
+    border-radius: 10px;
+}
+.product-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.product-card-footer{
+    border: none;
+    background: none;
+}
+.product-card-footer h3{
+    color:#FABE4C;
+}
+
+
+
+.single-service{
+    box-shadow:0px 0px 5px 0px #00000080;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.single-service img{
+    width: 70px;
+    margin:0px 30px;
+}
+.single-service p{
+    padding: 0;
+    margin: 0;
+}
+.service-images img {
+    margin: 50px 30px;
+}
+
+
+
+footer{
+    background-color: #253F67;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    color: rgb(173, 163, 163);
+}
+footer span{
+    color: #ffffff;
+}

@@ -1,0 +1,88 @@
+
+/*=========================== max-width 980 start ===================================*/
+@media only screen and (max-width: 980px) {
+    .home-slider-images img {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    nav>a>h2{
+        font-size: 30px;
+    }
+    nav{
+        width: 100%;
+    }
+    .widget{
+        display: none;
+    }
+    .banner1{
+        display: none;
+    }
+    .widget-banner img:hover{
+        transform: none;  
+    }
+    .widget-banner:hover{
+        transform: none;
+    }
+    .product-card:hover{  
+        transform: none;
+    }
+    .col.single-product {
+        margin: 15px 0px;
+    }
+  }
+/*=========================== max-width 980 End ===================================*/
+
+
+/*=========================== max-width 720 Start ===================================*/
+  @media only screen and (max-width: 720px) {
+    nav>a>h2{
+        font-size: 27px;
+    }
+    .slider-reverse {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;
+    }
+    .home-slider-images img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .single-slider{
+        padding-top: 100px !important;
+        margin: 0;
+    }
+    .home-slider{
+        padding: 0;
+        margin: 0 !important;
+    }
+    .slider-contant h1{
+        font-size: 35px;
+        color: #363958;
+    }
+    .home-slider-images {
+        padding: 30px 0px;
+    }
+    .banner1, .banner2{
+        display: none;
+    }
+  }
+/*=========================== max-width 720 End ===================================*/
+
+
+/*=========================== max-width 540 Start ===================================*/
+@media only screen and (max-width: 540px) {
+    nav>a>h2{
+        font-size: 20px;
+    }
+    .slider-contant h1{
+        font-size: 25px;
+        color: #363958;
+    }
+    .home-slider-images img {
+        width: 270px !important;
+        height: 270px !important;
+    }
+  }
+/*=========================== max-width 540 End ===================================*/
+  
